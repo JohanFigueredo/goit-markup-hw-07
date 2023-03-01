@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,27 +18,27 @@
     />
   </head>
   <body>
-    <header>
+    <header class="header">
       <section>
         <div class="flex container">
-          <a class="header-logo logo" href="./index.html">WebStudio</a>
+          <a class="header__logo logo" href="./index.html">WebStudio</a>
           <nav>
-            <ul class="flex navigation">
-              <li class="link-page">
+            <ul class="navigation">
+              <li class="navigation__page">
                 <a href="./index.html">Estudio</a>
               </li>
-              <li class="link-page current">
+              <li class="navigation__page current">
                 <a href="./portfolio.html">Portafolio</a>
               </li>
-              <li class="link-page">
+              <li class="navigation__page">
                 <a href="./contactos.html">Contactos</a>
               </li>
             </ul>
           </nav>
-          <ul class="contact-header flex">
-            <li class="contact-division">
-              <a class="header-mail" href="mailto:info@devstudio.com">
-                <svg class="head-icon" width="16" height="12">
+          <ul class="header__contact flex">
+            <li class="header__contact-division">
+              <a class="header__mail" href="mailto:info@devstudio.com">
+                <svg class="header__icon" width="16" height="12">
                   <use
                     href="./images/icons.svg#icon-sobre"
                     width="16"
@@ -49,8 +49,8 @@
               >
             </li>
             <li>
-              <a class="header-phone" href="tel:+525555296000">
-                <svg class="head-icon" width="10" height="16">
+              <a class="header__phone" href="tel:+525555296000">
+                <svg class="header__icon" width="10" height="16">
                   <use href="./images/icons.svg#icon-tel"></use>
                 </svg>
                 +52 55 5529 6000</a
@@ -63,7 +63,7 @@
     <main>
       <section class="section">
         <div class="container">
-          <ul class="filter flex">
+          <ul class="categories__filter flex">
             <li>
               <button class="categories all" type="button">Todo</button>
             </li>
@@ -85,174 +85,174 @@
             </li>
           </ul>
           <ul class="projects flex">
-            <li class="project-card">
+            <li class="projects__card">
               <a href class="not-hv">
-                <div class="overlay">
+                <div class="projects__overlay">
                 <img
                   src="./images/tecnoduck.jpg"
                   alt="Tecnoduck"
                   width="370"
                   height="294"
                 />
-                <span class="overlay-text">
+                <span class="projects__overlay-text">
                   Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.
                 </span>
               </div>
-                <div class="project-description">
-                  <h3 class="project-title">Tecnoduck</h3>
+                <div class="projects__type">
+                  <h3 class="projects__title">Tecnoduck</h3>
                   <p>Sitio-web</p>
                 </div>
               </a>
             </li>
-            <li class="project-card">
+            <li class="projects__card">
               <a href class="not-hv">
-                <div class="overlay">
+                <div class="projects__overlay">
                 <img
                   src="./images/poster.jpg"
                   alt="Poster basket"
                   width="370"
                   height="294"
                 />
-                <span class="overlay-text">
+                <span class="projects__overlay-text">
                   Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.
                 </span>
               </div>
-                <div class="project-description">
+                <div class="projects__type">
                   <h3 class="basket">
                       Póster de Nueva Orleans vs Estrella Dorada
                   </h3>
                 <p>Diseño</p>
               </div></a>
             </li>
-            <li class="project-card">
+            <li class="projects__card">
               <a href class="not-hv">
-                <div class="overlay">
+                <div class="projects__overlay">
                 <img
                   src="./images/seafood.jpg"
                   alt="Restaurante Seafood"
                   width="370"
                   height="294"
                 />
-                <span class="overlay-text">
+                <span class="projects__overlay-text">
                   Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.
                 </span>
               </div>
-                <div class="project-description">
-                  <h3 class="project-title">Restaurante Seafood</h3>
+                <div class="projects__type">
+                  <h3 class="projects__title">Restaurante Seafood</h3>
                   <p>Aplicaciones</p>
                 </div>
               </a>
             </li>
-            <li class="project-card">
+            <li class="projects__card">
               <a href class="not-hv">
-                <div class="overlay">
+                <div class="projects__overlay">
                 <img
                   src="./images/prime.jpg"
                   alt="Proyecto Prime"
                   width="370"
                   height="294"
                 />
-                <span class="overlay-text">
+                <span class="projects__overlay-text">
                   Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.
                 </span>
               </div>
-                <div class="project-description">
-                  <h3 class="project-title">Proyecto Prime</h3>
+                <div class="projects__type">
+                  <h3 class="projects__title">Proyecto Prime</h3>
                   <p>Marketing</p>
                 </div>
               </a>
             </li>
-            <li class="project-card">
+            <li class="projects__card">
               <a href class="not-hv">
-                <div class="overlay">
+                <div class="projects__overlay">
                 <img
                   src="./images/boxes.jpg"
                   alt="Proyecto cajas"
                   width="370"
                   height="294"
                 />
-                <span class="overlay-text">
+                <span class="projects__overlay-text">
                   Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.
                 </span>
               </div>
-                <div class="project-description">
-                  <h3 class="project-title">Proyecto Cajas</h3>
+                <div class="projects__type">
+                  <h3 class="projects__title">Proyecto Cajas</h3>
                   <p>Aplicaciones</p>
                 </div>
               </a>
             </li>
-            <li class="project-card">
+            <li class="projects__card">
               <a href class="not-hv">
-                <div class="overlay">
+                <div class="projects__overlay">
                 <img
                   src="./images/inspiration.jpg"
                   alt="La inspiración no tiene límites"
                   width="370"
                   height="294"
                 />
-                <span class="overlay-text">
+                <span class="projects__overlay-text">
                   Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.
                 </span>
               </div>
-                <div class="project-description">
-                  <h3 class="project-title">La inspiración no tiene límites</h3>
+                <div class="projects__type">
+                  <h3 class="projects__title">La inspiración no tiene límites</h3>
                   <p>Sitio-web</p>
                 </div>
               </a>
             </li>
-            <li class="project-card">
+            <li class="projects__card">
               <a href class="not-hv">
-                <div class="overlay">
+                <div class="projects__overlay">
                 <img
                   src="./images/limited.jpg"
                   alt="Edición limitada"
                   width="370"
                   height="294"
                 />
-                <span class="overlay-text">
+                <span class="projects__overlay-text">
                   Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.
                 </span>
               </div>
-                <div class="project-description">
-                  <h3 class="project-title">Edición Limitada</h3>
+                <div class="projects__type">
+                  <h3 class="projects__title">Edición Limitada</h3>
                   <p>Diseño</p>
                 </div>
               </a>
             </li>
-            <li class="project-card">
+            <li class="projects__card">
               <a href class="not-hv">
-                <div class="overlay">
+                <div class="projects__overlay">
                 <img
                   src="./images/lab.jpg"
                   alt="Proyecto LAB"
                   width="370"
                   height="294"
                 />
-                <span class="overlay-text">
+                <span class="projects__overlay-text">
                   Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.
                 </span>
               </div>
-                <div class="project-description">
-                  <h3 class="project-title">Proyecto LAB</h3>
+                <div class="projects__type">
+                  <h3 class="projects__title">Proyecto LAB</h3>
                   <p>Marketing</p>
                 </div>
               </a>
             </li>
-            <li class="project-card">
+            <li class="projects__card">
               <a href class="not-hv">
-                <div class="overlay">
+                <div class="projects__overlay">
                 <img
                   src="./images/growing.jpg"
                   alt="Negocio en crecimiento"
                   width="370"
                   height="294"
                 />
-                <span class="overlay-text">
+                <span class="projects__overlay-text">
                   Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.
                 </span>
               </div>
-                <div class="project-description">
-                  <h3 class="project-title">Negocio en Crecimiento</h3>
+                <div class="projects__type">
+                  <h3 class="projects__title">Negocio en Crecimiento</h3>
                   <p>Aplicaciones</p>
                 </div>
               </a>
@@ -261,70 +261,70 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <section>
         <div class="flex container">
           <div>
-          <a class="logo logo-footer" href="./index.html">WebStudio</a>
+          <a class="logo" href="./index.html">WebStudio</a>
           <address>Calz. Ticomán 500, Ciudad de México, CDMX, México</address>
-          <ul class="foot-info">
+          <ul class="footer__info">
             <li>
               <a
-                class="contact-footer footer-mail"
+                class="footer__contact footer-mail"
                 href="mailto:info@example.com"
                 >info@example.com</a
               >
             </li>
             <li>
-              <a class="contact-footer footer-phone" href="tel:+525555296000"
+              <a class="footer__contact footer-phone" href="tel:+525555296000"
                 >+52 55 5529 6000</a
               >
             </li>
           </ul>
         </div>
-        <div class="sm-footer">
-          <h3 class="sm-title">ENCUENTRENOS EN</h3>
-          <ul class="smlist-footer list">
+        <div class="footer__social-media">
+          <h3 class="footer__sm-title">ENCUENTRENOS EN</h3>
+          <ul class="footer__sm-list list">
             <li class="sm-item">
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="fsm-circle">
-                <svg class="icon-fsm-circle">
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="footer__sm-circle">
+                <svg class="footer__smc-icon">
                   <use href="./images/icons.svg#icon-igfoot"></use>
                 </svg>
               </a>
             </li>
             <li class="sm-item">
-              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="fsm-circle">
-                <svg class="icon-fsm-circle">
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="footer__sm-circle">
+                <svg class="footer__smc-icon">
                   <use href="./images/icons.svg#icon-twfoot"></use>
                 </svg>
               </a>
             </li>
             <li class="sm-item">
-              <a href="https://www.facebook.com/"  target="_blank" rel="noopener noreferrer"class="fsm-circle">
-                <svg class="icon-fsm-circle">
+              <a href="https://www.facebook.com/"  target="_blank" rel="noopener noreferrer"class="footer__sm-circle">
+                <svg class="footer__smc-icon">
                   <use href="./images/icons.svg#icon-fbfoot"></use>
                 </svg>
               </a>
             </li>
             <li class="sm-item">
-              <a href="https://www.linkedin.com/signup" target="_blank" rel="noopener noreferrer" class="fsm-circle">
-                <svg class="icon-fsm-circle">
+              <a href="https://www.linkedin.com/signup" target="_blank" rel="noopener noreferrer" class="footer__sm-circle">
+                <svg class="footer__smc-icon">
                   <use href="./images/icons.svg#icon-linfoot"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="foot-form">
-          <h3 class="foot-subscribe">SUSCRÍBASE AL BOLETÍN INFORMATIVO</h3>
-          <form class="flex form-justify">
+        <div class="footer__form">
+          <h3 class="footer__subscribe">SUSCRÍBASE AL BOLETÍN INFORMATIVO</h3>
+          <form class="flex footer__justify">
             <label>
-              <input class="foot-input" type="email" name="email" placeholder="Correo electrónico"/>
+              <input class="footer__input" type="email" name="email" placeholder="Correo electrónico"/>
             </label>
             <label>
-              <button class="foot-submit" type="submit">
-                <span class="flex">Suscríbase <svg class="icon-send">
-                  <use href="./images/icons.svg#icon-send"></use>
+              <button class="footer__submit" type="submit">
+                <span class="flex">Suscríbase <svg class="footer__send-icon">
+                  <use href="./images/icons.svg#footer__send-icon"></use>
                 </svg></span>
               </button>
             </label>
